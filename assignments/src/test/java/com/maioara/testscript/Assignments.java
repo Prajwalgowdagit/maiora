@@ -37,9 +37,9 @@ public class Assignments {
 	driver.findElement(By.xpath("(//nz-select-top-control[@ng-reflect-place-holder='Select Datastore'])[2]")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//div[text()='Maiora_Datastore']")).click();
-	driver.findElement(By.xpath("(//input[@placeholder='Title'])[2]")).sendKeys("prajwal8");
+	driver.findElement(By.xpath("(//input[@placeholder='Title'])[2]")).sendKeys("prajwal10");
 	Thread.sleep(2000);
-	driver.findElement(By.xpath("(//textarea[@placeholder='Description'])[2]")).sendKeys("data creation8");
+	driver.findElement(By.xpath("(//textarea[@placeholder='Description'])[2]")).sendKeys("data creation10");
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//span[text() =' Test ']/..")).click();
 	Thread.sleep(2000);
@@ -49,8 +49,8 @@ public class Assignments {
 		//ASSIGNMENT2
 	driver.findElement(By.xpath("//span[text()=' Scheduler']/..")).click();Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[text()=' Create Scheduler ']/..")).click();Thread.sleep(3000);
-	driver.findElement(By.xpath("//input[@placeholder='Schedule Name']")).sendKeys("prajwal8");
-	driver.findElement(By.xpath("//input[@placeholder='Description']")).sendKeys("prajwal descp 8");Thread.sleep(2000);
+	driver.findElement(By.xpath("//input[@placeholder='Schedule Name']")).sendKeys("prajwal10");
+	driver.findElement(By.xpath("//input[@placeholder='Description']")).sendKeys("prajwal descp 10");Thread.sleep(2000);
 	Thread.sleep(2000);
 	Robot r = new Robot();
 	r.keyPress(KeyEvent.VK_CONTROL);
@@ -78,7 +78,7 @@ public class Assignments {
 	Actions actions = new Actions(driver);
 	actions.moveToElement(driver.findElement(By.xpath("//span[text()=' Save ']/.."))).click().perform();
 	driver.findElement(By.xpath("//span[text()=' Save ']/..")).click();
-	Thread.sleep(7000);
+	Thread.sleep(10000);
 	driver.quit();
 }
 }
